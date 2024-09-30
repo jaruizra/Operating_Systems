@@ -4,7 +4,7 @@
 #include <sys/types.h>
 
 // my suscall number number assigned to get_process_runtime
-#define SYS_get_process_runtime 549
+#define SYS_get_process_runtime 548
 
 // Main
 int main (int argc, char *argv[]) {
