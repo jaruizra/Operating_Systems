@@ -7,6 +7,7 @@ gcc -Wall -Wshadow -Wvla -g -c main.c
 gcc -g -o main main.o
 
 
+gcc -Wall -Wshadow -Wvla -g -c activity4.c; gcc -g -o activity4 activity4.o
 
 Si el programa da warnings al compilar, deben considerarse errores. Se considerará que
 
