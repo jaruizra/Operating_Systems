@@ -10,7 +10,7 @@ float average = 0;
 void mysum() {
   printf("Initially Sum variable = %d\n", sum);
   for (int i = 1; i < n; i++) {
-    sleep(3);
+    sleep(1);
     sum = sum + i;
     ;
     printf("Loop %d: When we add %d, sum is %d\n ", i, i, sum);
@@ -21,7 +21,7 @@ void mysum() {
 void myaverage() {
   printf("Initially the variable average = %f \n", average);
   for (int i = 1; i < n; i++) {
-    sleep(5);
+    sleep(1);
     sum_2 = sum_2 + i;
     average = sum_2 / i;
     printf("Loop %d: The average from 1 to %d is : %f\n", i, i, average);

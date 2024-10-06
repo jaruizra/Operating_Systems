@@ -1,0 +1,13 @@
+Flags de compilación y enlazado
+La compilación y enlazado se debe realizar con los siguientes flags:
+
+
+gcc -Wall -Wshadow -Wvla -g -c main.c
+
+gcc -g -o main main.o
+
+
+
+Si el programa da warnings al compilar, deben considerarse errores. Se considerará que
+
+el programa no compila si da warnings.
